@@ -1,0 +1,91 @@
+@import '../../../sass/variables.scss';
+
+
+
+
+
+
+.inviteUserModal {
+
+
+  .users--input-cs-styles{
+    border-radius: 2px !important;
+    height: 37px;
+    .ant-select-selector{
+      border-radius: 2px !important;
+      height: 37px !important;
+      align-items: center !important;
+    }
+  }
+
+  .inviteUserModal {
+    .ant-modal-content {
+      overflow-x: auto;
+      overflow-x: hidden;
+      height: 700px;
+    }
+    ::-webkit-scrollbar {
+      width: 4px;
+    }
+  
+    ::-webkit-scrollbar-thumb {
+      border-radius: 10px;
+      background-color: #fe5c36;
+    }
+
+  }
+}
+.invite-content{
+  .email--styles-fr-lower-icon{
+    background-color: #fe5c36;
+  }
+}
+
+.users--input-cs-styles{
+  border-radius: 2px !important;
+  height: 37px !important;
+  .ant-select-selector{
+    border-radius: 2px !important;
+    height: 37px !important;
+    align-items: center !important;
+  }
+}
+.users--input--edit-cs-styles{
+  border-radius: 2px !important;
+  height: 37px !important;
+  .ant-select-selector{
+    border-radius: 2px !important;
+    height: 37px !important;
+    align-items: center !important;
+  }
+}
+.cus--placeholder{
+  color: #fe5c36;
+}
+.projects-checkboxes {
+  margin-block: 25px;
+  .ant-checkbox-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px !important;
+      @media only screen and (max-width: 768px) {
+        flex-direction: column;
+      }
+    // }
+  }
+}
+.addMoreProject {
+  .ant-pagination {
+    display: flex;
+    margin: 20px 0 30px 0px;
+    li:first-child {
+      flex: 1 1 0;
+    }
+  }
+}
+.ant-input {
+  &::placeholder{
+      color: #A0ACBB;
+  } 
+
+}

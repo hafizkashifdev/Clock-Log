@@ -1,0 +1,200 @@
+@import "./variables";
+
+
+:root {
+    --themeHeader-bg: #002433;
+    --white-color: #ffff;
+    --themeTitle-color: #264653;
+    --gradient-bg: linear-gradient(180deg, #002433 0%, #033246 100%);
+    --theme-card-gradient-bg: linear-gradient(180deg, #002433 0%, #124d66 100%);
+    // --themeBgLight-color: #FFF4F1;
+    --themeBgLight-color: #FFFAF9;
+    --light-grey-color: #c1c1c1;
+    --grey-color: #3B4D60;
+    --theme-grey-color: #3B4D60;
+    --themeDark-grey-color: #4E6073;
+    --themelight-grey-color: #7a8897;
+    --theme-table-cell-bg: #fef9f8;
+    --theme-dark-color: #002433;
+    --theme-line-color: #DBE4EF;
+    --theme-table--dark-box-shadow: rgb(0 0 0 / 25%) 0px 54px 55px, rgb(0 0 0 / 12%) 0px -12px 30px, rgb(0 0 0 / 12%) 0px 4px 6px, rgb(0 0 0 / 17%) 0px 12px 13px, rgb(0 0 0 / 9%) 0px -3px 5px;
+    --theme-table-box-shadow: 0px 0px 2px rgb(16 24 40 / 25%);
+    --theme-card-shadow: rgb(0 0 0 / 4%) 0px 54px 55px, rgb(0 0 0 / 4%) 0px -12px 30px, rgb(0 0 0 / 0%) 0px 4px 6px, rgb(0 0 0 / 17%) 0px 12px 13px, rgb(0 0 0 / 0%) 0px -3px 5px;
+    --theme-card-bg-2: #f9fafb;
+    --theme-light-gray-p-color: #667085;
+    --theme-checkbox: #dadada;
+    --theme-dark-gradient-card: #838da1;
+    --theme-gradient-card-hover: rgba(245, 236, 234, 0.5);
+    --theme-gradient-card-box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    --theme-icons-div-color: #d4d4d4;
+    --theme-button-stats-color: #eaeaea;
+    --theme-pagination-border-color: #DFE3E8;
+    --theme-accordian-bg-color: #f8f8f8;
+    --card-shadow: 0px 0px 6px rgb(16 24 40 / 10%);
+    --theme-without-gradient-bg: #033246;
+    --theme-custom-select: rgba(244, 162, 97, 0.2);
+    --theme-dark-custom-select: rgb(224, 224, 224);
+    --theme-0E-light-black-color: #0E0E0E;
+    --theme-bg-color-3: #f8f7f7;
+    --theme-card-bg-color-3-box-shadow: -8px 8px 12px rgba(218, 222, 232, 0.4);
+    --theme-card-bg-3-border-color: #e6e6e6;
+    --theme-card-bg-3-border-radius: none;
+    --theme-dark-pink-color: #2B2947;
+    --theme-light-pink-color: #57566A;
+    --theme-black-color: #000000;
+    --theme-light-grey: #A0ACBB;
+    --report-title-color: #14142b;
+    --theme-error-color: #FF4D4F;
+    --light-theme-More-User-bg: #E5E5E5;
+    --btn-light-theme-color: #f4f9ff;
+    --btn-dark-theme-color: #264653;
+    --theme-darkBlue-color: #1B2559;
+    --theme-white-img-theme-class: brightness(0) invert(1);
+
+    --theme-account-modal-title-color: #323338;
+    --theme-light-black-color: #1F1F1F;
+    
+}
+
+
+// snackbar image border and color #29620d 
+// element.style {
+//     width: 298px;
+//     height: 44px;
+//     margin-top: 0px;
+//     padding: 0.625rem;
+//     background: #409d12;
+//     background: linear-gradient(80deg, #fff 0%, #a5f77d 100%);
+//     border-bottom: 2px solid #29620d;
+//     border-radius: 4px;
+// }
+
+
+
+:root[data-theme='light'] {
+    --main-bg-color: var(--themeBgLight-color);
+    --header-bg: var(--themeBgLight-color);
+    --title-color: var(--themeTitle-color);
+    --grey-color: var(--theme-grey-color);
+    --border-color: #A0ACBB;
+    --card-bg-color: rgb(255, 255, 255);
+    --card-box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.15);
+    --dark-grey-color: var(--themeDark-grey-color);
+    --white-dark-bg: var(--white-color);
+    --grey-p-color: var(--theme-grey-color);
+    --inverted-theme-bg: var(--title-color);
+    --table-row-bg: var(--theme-table-cell-bg);
+    --only-white-and-primary-color: var(--white-color);
+    --line-color: var(--theme-line-color);
+    --table-box-shadow: 0px 0px 2px rgba(16, 24, 40, 0.25);
+    --card-box-shadow: var(--card-shadow);
+    --card-bg-color-2: var(--theme-card-bg-2);
+    --light-grey-p-color: var(--theme-light-gray-p-color);
+    --label-color: var(--theme-grey-color);
+    --checkbox-border: var(--theme-checkbox);
+    --card-gradient-bg: var(--theme-card-bg-2);
+    --gradient-card-p-color: var(--theme-light-gray-p-color);
+    --gradient-card-hover: var(--theme-gradient-card-hover);
+    --graident-card-box-shadow: var(--white-color);
+    --theme-ss-unselect-card-color: #FFFAF9;
+    --theme-ss-selected-card-color: #FE5C361A;
+    --icons-div-color: var(--theme-icons-div-color);
+    --button-stat-color: var(--theme-button-stats-color);
+    --pagination-border-color: var(--theme-pagination-border-color);
+    --accordian-bg-color: var(--theme-accordian-bg-color);
+    --without-gradient-bg: var(--themeBgLight-color);
+    --without-gradient-bg-2: var(--white-color);
+    --0E-light-black-color: var(--theme-0E-light-black-color);
+    --card-bg-color-3: var(--theme-bg-color-3);
+    --card-bg-color-3-box-shadow: var(--theme-card-bg-color-3-box-shadow);
+    --card-bg-3-border-color: var(--theme-card-bg-3-border-color);
+    --card-bg-3-border-radius: 9px;
+    --select-bg-color: var(--white-color);
+    --custom-select-bg: var(--theme-custom-select);
+    --0E-light-black-color: var(--theme-0E-light-black-color);
+    --card-bg-color-3: var(--theme-bg-color-3);
+    --card-bg-color-3-box-shadow: var(--theme-card-bg-color-3-box-shadow);
+    --card-bg-3-border-color: var(--theme-card-bg-3-border-color);
+    --card-bg-3-border-radius: 9px;
+
+    --dark-pink-color: var(--theme-dark-pink-color);
+    --light-pink-color: var(--theme-light-pink-color);
+    --black-color: var(--theme-black-color);
+    --light-grey-color-2: var(--theme-light-grey);
+    --report-title-color: var(--report-title-color);
+
+    --error-color: var(--theme-error-color);
+    --theme-More-User-bg: var(--light-theme-More-User-bg);
+    --avatar-bg-color: rgb(201, 201, 201);
+    --btn-theme-color: var(--btn-light-theme-color);
+    --darkBluee-color: var(--theme-dark-blue-color);
+
+    --account-modal-title-color: var(--theme-account-modal-title-color);
+
+    --light-black-color: var(--theme-light-black-color);
+}
+
+:root[data-theme='dark'] {
+    --white-img-theme-class: var(--theme-white-img-theme-class);
+    --main-bg-color: var(--gradient-bg);
+    --header-bg: var(--themeHeader-bg);
+    --title-color: var(--white-color);
+    --grey-color: var(--light-grey-color);
+    --border-color: #3B4D60;
+    --card-bg-color: var(--themeTitle-color);
+    --avatar-bg-color: var(--themeTitle-color);
+    --card-box-shadow: 0px 1px 6px rgb(255, 255, 255);
+    --dark-grey-color: var(--themelight-grey-color);
+    --white-dark-bg: var(--gradient-bg);
+    --grey-p-color: var(--theme-grey-color);
+    --label-color: var(--theme-grey-color);
+    --grey-p-color: var(--grey-color);
+    --label-color: var(--light-grey-color);
+    --inverted-theme-bg: var(--white-color);
+    --table-row-bg: var(--header-bg);
+    --only-white-and-primary-color: var(--theme-dark-color);
+    --line-color: var(--themeDark-grey-color);
+    --table-box-shadow: var(--theme-table--dark-box-shadow);
+    --card-box-shadow: var(--theme-card-shadow);
+    --card-bg-color-2: var(--themeTitle-color);
+    --light-grey-p-color: var(--theme-light-gray-p-color);
+    --checkbox-border: var(--grey-p-color);
+    --card-gradient-bg: var(--theme-without-gradient-bg);
+    --gradient-card-p-color: var(--theme-dark-gradient-card);
+    --gradient-card-hover: var(--gradient-bg);
+    --graident-card-box-shadow: var(--theme-gradient-card-box-shadow);
+    --theme-ss-unselect-card-color: var(--theme-card-gradient-bg);
+    --theme-ss-selected-card-color: #FE5C361A;
+    --icons-div-color: var(--themeTitle-color);
+    --button-stat-color: var(--themeTitle-color);
+    --pagination-border-color: var(--grey-color);
+    --dynamic-img-filter: brightness(0) invert(1);
+    --accordian-bg-color: var(--themeTitle-color);
+    --without-gradient-bg: var(--theme-without-gradient-bg);
+    --without-gradient-bg-2: var(--theme-without-gradient-bg);
+    --select-bg-color: var(--themeHeader-bg);
+    --custom-select-bg: var(--theme-dark-custom-select);
+    --0E-light-black-color: var(--themeBgLight-color);
+    --card-bg-color-3: var(--themeTitle-color);
+    --card-bg-color-3-box-shadow: var(--theme-without-gradient-bg);
+    --card-bg-3-border-color: var(--theme-without-gradient-bg);
+    --card-bg-3-border-radius: var(--theme-card-bg-3-border-radius);
+    --dark-pink-color: var(--white-color);
+    --light-pink-color: var(--light-grey-color);
+    --black-color: var(--white-color);
+    --light-grey-color-2: var(--theme-light-grey);
+    --report-title-color: var(--white-color);
+
+
+    --error-color: var(--theme-error-color);
+    --theme-More-User-bg: var(--themeHeader-bg);
+    --btn-theme-color: var(--btn-dark-theme-color);
+    --darkBluee-color: var(--white-color);
+
+    --account-modal-title-color: var(--white-color);
+
+    --0E-light-black-color: var(--white-color);
+
+    --light-black-color: var(--white-color);
+
+}
